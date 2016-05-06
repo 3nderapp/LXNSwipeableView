@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		085B96791AC573BB0081E080 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 085B96781AC573BB0081E080 /* main.m */; };
+		085B967C1AC573BB0081E080 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 085B967B1AC573BB0081E080 /* AppDelegate.m */; };
+		085B967F1AC573BB0081E080 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 085B967E1AC573BB0081E080 /* ViewController.m */; };
+		085B96821AC573BB0081E080 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 085B96801AC573BB0081E080 /* Main.storyboard */; };
+		085B96841AC573BB0081E080 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 085B96831AC573BB0081E080 /* Images.xcassets */; };
+		085B96871AC573BB0081E080 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 085B96851AC573BB0081E080 /* LaunchScreen.xib */; };
+		085B96931AC573BB0081E080 /* LXNSwipeableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 085B96921AC573BB0081E080 /* LXNSwipeableViewTests.m */; };
+		085B96A21AC599D40081E080 /* UIView+LXNSwipeableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 085B96A11AC599D40081E080 /* UIView+LXNSwipeableView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		085B968D1AC573BB0081E080 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 085B966B1AC573BB0081E080 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 085B96721AC573BB0081E080;
+			remoteInfo = LXNSwipeableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		085B96731AC573BB0081E080 /* LXNSwipeableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXNSwipeableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		085B96771AC573BB0081E080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		085B96781AC573BB0081E080 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		085B967A1AC573BB0081E080 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		085B967B1AC573BB0081E080 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		085B967D1AC573BB0081E080 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		085B967E1AC573BB0081E080 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		085B96811AC573BB0081E080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		085B96831AC573BB0081E080 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		085B96861AC573BB0081E080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		085B968C1AC573BB0081E080 /* LXNSwipeableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXNSwipeableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		085B96911AC573BB0081E080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		085B96921AC573BB0081E080 /* LXNSwipeableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXNSwipeableViewTests.m; sourceTree = "<group>"; };
+		085B96A01AC599D40081E080 /* UIView+LXNSwipeableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+LXNSwipeableView.h"; path = "LXNSwipeableView/UIView+LXNSwipeableView.h"; sourceTree = "<group>"; };
+		085B96A11AC599D40081E080 /* UIView+LXNSwipeableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+LXNSwipeableView.m"; path = "LXNSwipeableView/UIView+LXNSwipeableView.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		085B96701AC573BB0081E080 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		085B96891AC573BB0081E080 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		085B966A1AC573BB0081E080 = {
+			isa = PBXGroup;
+			children = (
+				085B96751AC573BB0081E080 /* LXNSwipeableView */,
+				085B968F1AC573BB0081E080 /* LXNSwipeableViewTests */,
+				085B96741AC573BB0081E080 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		085B96741AC573BB0081E080 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				085B96731AC573BB0081E080 /* LXNSwipeableView.app */,
+				085B968C1AC573BB0081E080 /* LXNSwipeableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		085B96751AC573BB0081E080 /* LXNSwipeableView */ = {
+			isa = PBXGroup;
+			children = (
+				085B969C1AC573C20081E080 /* SwipeableView */,
+				085B967A1AC573BB0081E080 /* AppDelegate.h */,
+				085B967B1AC573BB0081E080 /* AppDelegate.m */,
+				085B967D1AC573BB0081E080 /* ViewController.h */,
+				085B967E1AC573BB0081E080 /* ViewController.m */,
+				085B96801AC573BB0081E080 /* Main.storyboard */,
+				085B96831AC573BB0081E080 /* Images.xcassets */,
+				085B96851AC573BB0081E080 /* LaunchScreen.xib */,
+				085B96761AC573BB0081E080 /* Supporting Files */,
+			);
+			path = LXNSwipeableView;
+			sourceTree = "<group>";
+		};
+		085B96761AC573BB0081E080 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				085B96771AC573BB0081E080 /* Info.plist */,
+				085B96781AC573BB0081E080 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		085B968F1AC573BB0081E080 /* LXNSwipeableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				085B96921AC573BB0081E080 /* LXNSwipeableViewTests.m */,
+				085B96901AC573BB0081E080 /* Supporting Files */,
+			);
+			path = LXNSwipeableViewTests;
+			sourceTree = "<group>";
+		};
+		085B96901AC573BB0081E080 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				085B96911AC573BB0081E080 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		085B969C1AC573C20081E080 /* SwipeableView */ = {
+			isa = PBXGroup;
+			children = (
+				085B96A01AC599D40081E080 /* UIView+LXNSwipeableView.h */,
+				085B96A11AC599D40081E080 /* UIView+LXNSwipeableView.m */,
+			);
+			name = SwipeableView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		085B96721AC573BB0081E080 /* LXNSwipeableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 085B96961AC573BB0081E080 /* Build configuration list for PBXNativeTarget "LXNSwipeableView" */;
+			buildPhases = (
+				085B966F1AC573BB0081E080 /* Sources */,
+				085B96701AC573BB0081E080 /* Frameworks */,
+				085B96711AC573BB0081E080 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXNSwipeableView;
+			productName = LXNSwipeableView;
+			productReference = 085B96731AC573BB0081E080 /* LXNSwipeableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		085B968B1AC573BB0081E080 /* LXNSwipeableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 085B96991AC573BB0081E080 /* Build configuration list for PBXNativeTarget "LXNSwipeableViewTests" */;
+			buildPhases = (
+				085B96881AC573BB0081E080 /* Sources */,
+				085B96891AC573BB0081E080 /* Frameworks */,
+				085B968A1AC573BB0081E080 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				085B968E1AC573BB0081E080 /* PBXTargetDependency */,
+			);
+			name = LXNSwipeableViewTests;
+			productName = LXNSwipeableViewTests;
+			productReference = 085B968C1AC573BB0081E080 /* LXNSwipeableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		085B966B1AC573BB0081E080 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Leszek Kaczor";
+				TargetAttributes = {
+					085B96721AC573BB0081E080 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					085B968B1AC573BB0081E080 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 085B96721AC573BB0081E080;
+					};
+				};
+			};
+			buildConfigurationList = 085B966E1AC573BB0081E080 /* Build configuration list for PBXProject "LXNSwipeableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 085B966A1AC573BB0081E080;
+			productRefGroup = 085B96741AC573BB0081E080 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				085B96721AC573BB0081E080 /* LXNSwipeableView */,
+				085B968B1AC573BB0081E080 /* LXNSwipeableViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		085B96711AC573BB0081E080 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				085B96821AC573BB0081E080 /* Main.storyboard in Resources */,
+				085B96871AC573BB0081E080 /* LaunchScreen.xib in Resources */,
+				085B96841AC573BB0081E080 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		085B968A1AC573BB0081E080 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		085B966F1AC573BB0081E080 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				085B967F1AC573BB0081E080 /* ViewController.m in Sources */,
+				085B96A21AC599D40081E080 /* UIView+LXNSwipeableView.m in Sources */,
+				085B967C1AC573BB0081E080 /* AppDelegate.m in Sources */,
+				085B96791AC573BB0081E080 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		085B96881AC573BB0081E080 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				085B96931AC573BB0081E080 /* LXNSwipeableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		085B968E1AC573BB0081E080 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 085B96721AC573BB0081E080 /* LXNSwipeableView */;
+			targetProxy = 085B968D1AC573BB0081E080 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		085B96801AC573BB0081E080 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				085B96811AC573BB0081E080 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		085B96851AC573BB0081E080 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				085B96861AC573BB0081E080 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		085B96941AC573BB0081E080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		085B96951AC573BB0081E080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		085B96971AC573BB0081E080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXNSwipeableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		085B96981AC573BB0081E080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXNSwipeableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		085B969A1AC573BB0081E080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LXNSwipeableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXNSwipeableView.app/LXNSwipeableView";
+			};
+			name = Debug;
+		};
+		085B969B1AC573BB0081E080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LXNSwipeableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXNSwipeableView.app/LXNSwipeableView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		085B966E1AC573BB0081E080 /* Build configuration list for PBXProject "LXNSwipeableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				085B96941AC573BB0081E080 /* Debug */,
+				085B96951AC573BB0081E080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		085B96961AC573BB0081E080 /* Build configuration list for PBXNativeTarget "LXNSwipeableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				085B96971AC573BB0081E080 /* Debug */,
+				085B96981AC573BB0081E080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		085B96991AC573BB0081E080 /* Build configuration list for PBXNativeTarget "LXNSwipeableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				085B969A1AC573BB0081E080 /* Debug */,
+				085B969B1AC573BB0081E080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 085B966B1AC573BB0081E080 /* Project object */;
+}
